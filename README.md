@@ -1,4 +1,4 @@
 Resume
 ===
 
-![Drag Racing](resume.jpg)
+![Drag Racing](resume.png)
