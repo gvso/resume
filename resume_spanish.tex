@@ -1,0 +1,114 @@
+\documentclass{resume} % Usar el estilo personalizado resume.cls
+
+\usepackage[sfdefault]{roboto}
+\usepackage[left=0.3in,top=0.3in,right=0.4in,bottom=0.5in]{geometry} % Márgenes del documento
+\usepackage[none]{hyphenat}
+
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	filecolor=magenta,      
+	urlcolor=blue,
+}
+
+\name{Getulio Valentin Sanchez} % Tu nombre
+\address{\href{mailto:valentin.sanchez.py@gmail.com}{valentin.sanchez.py@gmail.com} \\
+	\href{https://github.com/gvso}{GitHub}: gvso \\
+	\href{https://www.linkedin.com/in/gvso1/}{LinkedIn}: gvso1 \\
+	+1 484 477-3869} % Tu dirección
+
+\begin{document}
+	
+	%----------------------------------------------------------------------------------------
+	%	SECCIÓN DE EXPERIENCIA LABORAL
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Experiencia Laboral}
+		
+		\begin{rSubsection}{Ingeniero de Software}{Lev}{}{Abr 2022 - Presente}
+			\item Desarrollé un algoritmo para filtrar y rankear prestamistas basado en criterios para financiación, hojas de condiciones, transacciones similares, velocidad en responder, entre otros criterios.
+			\item Construí un servicio que procesa todas las comunicaciones por correo electrónico entre nuestros clientes y usuarios prestamistas.
+			\item Desarrollé herramientas y servicios para permitir a los equipos de negocio convertir comunicaciones por correo electrónico no estructuradas en datos estructurados para actualizar automáticamente los estados de los acuerdos y los requisitos de financiación de los prestamistas.
+			\item Creé un sistema que comprende las tareas pendientes existentes de los usuarios, analiza las comunicaciones entrantes por correo electrónico y crea o actualiza automáticamente tareas para mantener a los usuarios al día con la financiación de sus acuerdos.en su búsqueda de financiación
+		\end{rSubsection}
+		
+		
+		\begin{rSubsection}{Ingeniero de Software}{Google}{}{Jun 2021 - Abr 2022}
+			\item Trabajé en redes de alto rendimiento e intercomunicación entre procesos.
+			\item Reduje el registro de memoria en un 85\% en nuestra pila de software RDMA (Acceso Directo a Memoria Remota).
+			\item Moví flujos de trabajo a dispositivos NIC (Tarjeta/Controlador de Interfaz de Red) para ahorrar hasta un 70\% del uso de CPU de nuestro software ejercían sobre los servidores.
+			\item Implementé en producción utilizando feature flags y automatizando actualizaciones/degradaciones sin interrupciones.
+		\end{rSubsection}
+		
+		\begin{rSubsection}{Pasante de Ingeniería de Software}{Google}{}{Jun 2020 - Ago 2020}
+			\item Reduje los costos operativos de los desarrolladores construyendo una herramienta para automatizar los despliegues graduales de nuevas versiones de código para aplicaciones que se ejecutan en Google Cloud Run.
+			\item Implementé y obtuve información concurrentemente sobre varios servicios de Cloud Run a través de la API de Cloud Run utilizando Go.
+			\item Determiné automáticamente si las nuevas versiones del código eran saludables basándome en señales de monitoreo de la API de Cloud Monitoring (Stackdriver).
+		\end{rSubsection}
+		
+		\begin{rSubsection}{Pasante de Ingeniería de Software}{Zivtech}{Filadelfia, PA}{May 2019 - Ago 2019}
+			\item Aumenté la rentabilidad de Probo entregando nuevas características como construcciones de ramas y soporte para servidores Git auto-alojados que ampliaron los casos de uso y el mercado de Probo.
+			\item Reestructuré parte de la arquitectura de Probo (Node.js, Kafka, Docker API) y refactoricé servicios para cumplir con los estándares de codificación y aumentar la mantenibilidad.
+		\end{rSubsection}
+		
+		\begin{rSubsection}{Pasante de Ingeniería de Software}{Keriton}{Filadelfia, PA}{Jun 2018 - Ago 2018}
+			\item Descubrí y reporté una vulnerabilidad crítica en la que una sola credencial de usuario daba al atacante acceso y control de los datos de todos los demás usuarios.
+			\item Expandí el soporte al cliente diseñando y desarrollando la arquitectura para la internacionalización en las aplicaciones cliente (AngularJS) y servidor (Node.js \& PostgreSQL).
+			\item Mejoré la eficiencia y reduje el tiempo dedicado a pruebas manuales desarrollando pruebas automatizadas de extremo a extremo, usando Karma y Jasmine, en todas las aplicaciones cliente y servidor.
+			\item Eliminé toda las entradas manuales de datos de pacientes procesando datos directamente de los sistemas de los hospitales a través de feeds ADT.
+		\end{rSubsection}
+		
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%	SECCIÓN DE EXPERIENCIA EN CÓDIGO ABIERTO
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{OPEN SOURCE Y OTRAS EXPERIENCIAS}
+		
+		\begin{rSubsection}{Contribuidor}{Drupal}{}{Dic 2014 - May 2020}
+			\item Nombrado uno de los 50 mejores contribuidores en 2018 y 2019 cuando tuve la oportunidad de presentar parte de mi trabajo en el principal evento anual de Drupal.
+			\item Desarrollé la API Social para armonizar la autenticación con más de 25 proveedores externos (como Facebook, Instagram y Google).
+			\item Aceleré el proceso de desarrollo de módulos de autenticación proporcionando una base de código común y API.
+			\item Construí y mantuve más de 20 módulos que contabilizaron más de 1,000,000 descargas.
+		\end{rSubsection}
+		
+		\hfil
+		
+		\begin{rSubsection}{Administrador de Org. y Mentor}{Google Code-In}{}{Nov 2015 - May 2020}
+			\item Introduje a más de 100 estudiantes preuniversitarios cada año al desarrollo de Código Abierto, involucrando a muchos de ellos para continuar contribuyendo al Código Abierto después de GCI.
+			\item Revisé documentación y código de más de 500 instancias de tareas cada año.
+			\item Creé más de 200 tareas y coordiné actividades así como responsabilidades con más de 10 mentores cada año.
+		\end{rSubsection}
+		
+		
+		\begin{rSubsection}{Administrador de Org. y Mentor}{Google Summer of Code}{}{Mar 2017 - May 2020}
+			\item Revisé más de 30 propuestas de proyectos cada año y seleccioné estudiantes basándome en la calidad de las propuestas y contribuciones previas al Código Abierto y Drupal.
+			\item Mentoré a estudiantes involucrados en un proyecto de 3 meses, incluyendo revisión de código, pruebas y depuración.
+		\end{rSubsection}
+		
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%	SECCIÓN DE EDUCACIÓN
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Educación}
+		
+		{\bf Swarthmore College}, Swarthmore, PA \hfill {Mayo 2021} \\ 
+		Licenciatura en Ciencias de la Computación y Ciencias Políticas
+		
+	\end{rSection}
+	
+	%----------------------------------------------------------------------------------------
+	%	SECCIÓN DE HABILIDADES
+	%----------------------------------------------------------------------------------------
+	
+	\begin{rSection}{Habilidades}
+		\underline{Habilidades de Programación:} Python, Go, JavaScript, PHP, C, C++, CSS
+		
+		\underline{Tecnologías:} Flask, AWS, GCP, Drupal, Node.js, Git, Linux, Docker, Postgres, MongoDB, Kafka
+	\end{rSection}
+	
+\end{document}
