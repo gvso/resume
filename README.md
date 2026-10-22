@@ -1,4 +1,4 @@
 Resume
 ===
 
-![Drag Racing](resume.png)
+![Getulio Valentin Sanchez resume](resume.png)
