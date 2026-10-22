@@ -23,7 +23,7 @@
 \documentclass{resume} % Use the custom resume.cls style
 
 \usepackage[sfdefault]{roboto}
-\usepackage[left=0.3in,top=0.3in,right=0.4in,bottom=0.5in]{geometry} % Document margins
+\usepackage[left=0.3in,top=0.3in,right=0.3in,bottom=0.3in]{geometry} % Document margins
 \usepackage[none]{hyphenat}
 
 \usepackage{hyperref}
@@ -49,7 +49,8 @@
 \begin{rSection}{Work Experience}
 	
 \begin{rSubsection}{Software Engineer}{Lev}{}{Apr 2022 - Present}
-	\item Developed AI agents to convert unstructured email communications into structured data to automatically extract and update deal statuses, lender financing requirements, terms, placements, user tasks, and other CRE (Commercial Real State) deal-related data.
+	\item Promoted to Senior Engineer 6 months after joining.
+	\item Developed AI agents to convert unstructured email communications into structured data to automatically extract and update deal statuses, lender financing requirements, terms, placements, user tasks, and other Commercial Real State deal-related data.
 	\item Developed algorithm to match and rank lenders and contacts based on filter criteria, underwriting tables, similar transactions, responsiveness, among other criteria.
 	\item Built and maintained the service that processes all the email communications between our customers and lenders.
 \end{rSubsection}
@@ -57,14 +58,14 @@
 \begin{rSubsection}{Software Engineer}{Google}{}{Jun 2021 - Apr 2022}
 	\item Worked on high performance networking and interprocess communication.
 	\item Reduced memory registration by 85\% in our RDMA (Remote Direct Memory Access) software stack.
-	\item Offloaded work to NIC (Network Interface Card/Controller) devices to save up to 70\% of our software stack’s CPU use in	host machines.
+	\item Offloaded work to NIC devices to save up to 70\% of our software stack’s CPU use in	host machines.
 	\item Deployed to production using feature flags and supporting hitless upgrades/downgrades.
 \end{rSubsection}
 
 \begin{rSubsection}{Software Engineering Intern}{Google}{}{Jun 2020 - Aug 2020}
 \item Reduced developers' operational costs by building a tool, from scratch, to automate gradual rollouts of new versions of code for applications running on Google Cloud Run.
 \item Concurrently rolled out and obtained information about several Cloud Run services through the Cloud Run API using Go.
-\item Automatically determined if new versions of code were healthy based on monitoring signals from the Cloud Monitoring API (Stackdriver)
+\item Automatically determined if new versions of code were healthy based on monitoring signals from the Cloud Monitoring API
 \end{rSubsection}
 
 %------------------------------------------------
@@ -77,7 +78,6 @@
 %------------------------------------------------
 
 \begin{rSubsection}{Software Engineering Intern}{Keriton}{Philadelphia, PA}{Jun 2018 - Aug 2018}
-\item Found out and reported a critical vulnerability in which a single user credential gave the attacker access and control of all other users' data.
 \item Expanded client support by designing and developing the architecture for internationalization on the client (AngularJS) and server (Node.js \& PostgreSQL) applications.
 \item Improved efficiency of and reduced time spent on manual tests by developing end-to-end automated tests, using Karma and Jasmine, across all client and server applications.
 \item Eliminated all manual data entry of patient information by processing data directly from hospitals' systems through ADT feeds.
@@ -94,27 +94,29 @@
 \begin{rSubsection}{Contributor}{Drupal}{}{Dec 2014 - May 2020}
 \item Named one of the top 50 contributors in 2018 and 2019 and presented my work at the major Drupal annual event.
 \item Developed the Social API to harmonize authentication with 25+ external providers (such as Facebook, Instagram, and Google).
-\item Sped up the process of developing authentication modules by providing a common base code and API.
 \item Built and maintained over 20 modules that accounted for more than 750,000 downloads.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Org Admin \& Mentor}{Google Code-In}{}{Nov 2015 - May 2020}
+\begin{rSubsection}{Org Admin \& Mentor}{Google Code-In \& Google Summer of Code}{}{Nov 2015 - May 2020}
 \item Introduced 100+ pre-university students each year to Open Source development, engaging many of them to continue contributing to Open Source after GCI.
-\item Reviewed documentation and code from over 500 task instances each year.
 \item Created over 200 tasks and coordinate activities as well as responsibilities with 10+ mentors each year.
-\linebreak
-\linebreak
+\item Mentored students engaged in a 3-month project, including code review, testing, and debugging.
 \end{rSubsection}
 
 %------------------------------------------------
 
-\begin{rSubsection}{Org Admin \& Mentor}{Google Summer of Code}{}{Mar 2017 - May 2020}
-\item Reviewed 30+ project proposals each year and select students based on quality of proposals and previous contributions to Open Source and Drupal.
-\item Mentored students engaged in a 3-month project, including code review, testing, and debugging.
-\end{rSubsection}
+\end{rSection}
 
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+	\underline{Programming Skills:} Python, PHP, Go, JavaScript, C, C++, CSS
+	
+	\underline{Technologies:} Flask, AWS, GCP, PostgreSQL, MongoDB, Drupal, Git, Linux, Docker, Node.js, Kafka
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
@@ -126,16 +128,6 @@
 	{\bf Swarthmore College}, Swarthmore, PA \hfill {May 2021} \\ 
 	Bachelors of Arts in Computer Science and Political Science
 	
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-%	SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\begin{rSection}{Skills}
-	\underline{Programming Skills:} Python, PHP, Go, JavaScript, C, C++, CSS
-	
-	\underline{Technologies:} Flask, AWS, GCP, PostgreSQL, MongoDB, Drupal, Git, Linux, Docker, Node.js, Kafka
 \end{rSection}
 
 
